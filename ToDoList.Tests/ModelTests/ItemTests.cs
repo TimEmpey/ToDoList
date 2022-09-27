@@ -72,21 +72,5 @@ namespace ToDoList.Tests
       //Assert
       CollectionAssert.AreEqual(newList, result);
     }
-
-    /* [TestMethod]
-    public void GetAll_ReturnsMessageWhenRepeated_String()
-    {
-      //Arrange
-      string description01 = "Walk the dog";
-      string description02 = "Walk the dog";
-      Item newItem1 = new Item(description01);
-      Item newItem2 = new Item(description02);
-      List<Item> newList = new List<Item> { newItem1, newItem2 };
-      string errorMessage = "Oops you already have that added";
-      //Act
-      List<Item> result = Item.GetAll();
-      //Assert
-      Assert.AreEqual(errorMessage, result);
-    } */
   }
 }
