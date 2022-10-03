@@ -14,8 +14,9 @@ namespace ToDoList.Tests
       Category.ClearAll();
     }
 
+/*
     [TestMethod]
-    public void CategoryConstructor_CreatesInstanceOfCategory_Category()
+  public void CategoryConstructor_CreatesInstanceOfCategory_Category()
     {
       Category newCategory = new Category("test category");
       Assert.AreEqual(typeof(Category), newCategory.GetType());
@@ -66,7 +67,7 @@ namespace ToDoList.Tests
     //Assert
     CollectionAssert.AreEqual(newList, result);
   }
-
+*/
 
   }
 }
